@@ -1,9 +1,11 @@
 import React from "react";
+import 'normalize.css';
+import './Main.css'
 import List from "./List";
 
 const Main = () => {
   return <main>
-    <h1>Create your own list</h1>
+    <h2>Create your own list</h2>
     <List />
   </main>;
 };
